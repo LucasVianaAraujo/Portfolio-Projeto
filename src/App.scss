@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.img_fundo {
+  background-image: url('./img/bo_ver.png');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-position: center;
+
+  .topo_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45%;
+
+    .lado_esquerdo {
+      display: flex;
+      margin-right: auto;
+    }
+
+    .lado_direito {
+      display: flex;
+      flex-direction: row;
+      white-space: nowrap;
+      gap: 3%;
+      padding-right: 5%;
+      font-family: "Archivo Regular", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    h1:hover {
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .foto_apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .lado_esquerdo {
+      display: flex;
+      padding-top: 25vh;
+      flex-direction: column;
+      margin-right: auto; // encosta na esquerda
+
+      h1 {
+        font-size: 100px;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+      }
+
+      h2 {
+        font-size: 30px;
+        font-family: "Archivo Regular", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      button {
+        border: black solid 1px;
+        outline: none;
+        background-color: transparent;
+        height: 6vh;
+        width: 30%;
+        cursor: pointer;
+        margin-top: 3%;
+      }
+
+      button:hover {
+        transition: all 0.5s;
+      }
+
+      button h1 {
+        font-family: "Archivo Regular", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+      }
+    }
+
+    .img_links {
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+      padding-top: 2%;
+    }
+
+    .git img {
+      width: 8vh;
+      height: 8vh;
+      cursor: pointer;
+    }
+
+    .linkedin img {
+      width: 8vh;
+      height: 8vh;
+      cursor: pointer;
+    }
+
+    .git:hover {
+      filter: invert(1);
+    }
+
+    .linkedin:hover {
+      filter: invert(1);
+    }
+  }
+}
