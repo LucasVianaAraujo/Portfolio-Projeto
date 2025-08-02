@@ -37,6 +37,7 @@
 
     h1:hover {
       color: white;
+      transition: all 0.2s;
       cursor: pointer;
     }
   }
@@ -110,9 +111,11 @@
 
     .git:hover {
       filter: invert(1);
+      transition: all 0.5s;
     }
 
     .linkedin:hover {
+      transition: all 0.5s;
       filter: invert(1);
     }
   }

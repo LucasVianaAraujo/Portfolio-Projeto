@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fundo_todo {
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    .lado_esquerdo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        height: 60vh;
+        width: 20%;
+    }
+
+    .bloco {
+        display: flex;
+        margin-top: 1vh;
+        background-color: violet;
+        height: 28vh;
+        width: 14%;
+    }
+
+    .lado_direito {
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        height: 40vh;
+        width: 50%;
+        margin-top: 20vh;
+        justify-content: flex-end;
+    }
+
+    .lado_direito h1 {
+        font-size: 70px;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .lado_direito h2 {
+        font-size: 40px;
+        font-family: "Archivo Regular", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .lado_direito h3 {
+        font-family: "Archivo Regular", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+
+    .lado_direito h1,
+    h2,
+    h3 {
+        text-align: justify;
+    }
+
+    .separador_bloco_texto {
+        display: flex;
+        margin-top: 1%;
+        flex-direction: row;
+        gap: 2%;
+    }
+}
