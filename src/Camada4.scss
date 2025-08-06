@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fundo_todo2 {
+    display: flex;
+    background-color: rgb(168, 168, 168);
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    padding: 2%;
+    flex-direction: column;
+
+    .alinhador_elementos {
+        display: flex;
+        flex-direction: row;
+        gap: 2vh;
+    }
+
+    .imagem_projeto {
+        display: flex;
+        background-color: rgb(119, 119, 119);
+        width: 60vh;
+        height: 50vh;
+    }
+
+    .lado_direito {
+        display: flex;
+        max-width: 60vh;
+        max-height: 50vh;
+
+        .escrita {
+            display: flex;
+            flex-direction: column;
+            gap: 1vh;
+            text-align: justify;
+            
+            h1 {
+                font-size: 10vh;
+                width: 30vh;
+                font-family: "Special Gothic Condensed One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+
+        h3 {
+            font-size: 2vh;
+            font-family: "Special Gothic Condensed One", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            
+        }
+
+        img {
+            width: 6vh;
+            height: 6vh;
+        }
+
+        .tecnologias {
+            display: flex;
+            margin-top: 9vh;
+        }
+    }
+}
