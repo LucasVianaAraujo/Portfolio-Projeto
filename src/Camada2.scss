@@ -40,7 +40,7 @@
     }
 
     .lado_direito h1 {
-        font-size: 70px;
+        font-size: 80px;
         font-family: "Archivo Black", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -71,5 +71,13 @@
         margin-top: 1%;
         flex-direction: row;
         gap: 2%;
+    }
+    
+    .lado_direito h1,
+    .lado_direito h2, 
+    .lado_direito h3 {
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     }
 }

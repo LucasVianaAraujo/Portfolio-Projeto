@@ -15,6 +15,9 @@
         font-size: 80px;
         justify-self: center;
         padding-bottom: 2%;
+        font-family: "Special Gothic Condensed One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .justificador_quadrado {
@@ -38,13 +41,27 @@
         border-radius: 10px;
         margin: 1%;
 
-        
+
         img {
             width: 30%;
             height: 10vh;
         }
-        
+
+        h1 {
+            font-family: "Special Gothic Condensed One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 5vh;
+        }
+
+        h3 {
+            font-family: "Special Gothic Condensed One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
     }
+
     .quadrado:hover {
         background-color: rgba(128, 128, 128, 0.233);
         transition: all 0.5s;
