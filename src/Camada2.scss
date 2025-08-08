@@ -80,4 +80,40 @@
     font-weight: 400;
     font-style: normal;
     }
+
+    @media (max-width: 1024px) {
+    .fundo_todo {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+    
+    .lado_esquerdo {
+        width: 80%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .lado_direito {
+        width: 80%;
+        margin-top: 0;
+        height: auto;
+    }
+    
+    .lado_direito h1 {
+        font-size: 60px;
+    }
+    
+    .lado_direito h2 {
+        font-size: 30px;
+    }
+    
+    .lado_direito h3 {
+        font-size: 24px;
+    }
+
+    .lado_esquerdo {
+        display: none !important; // faz desaparecer um elemento a partir de uma propriedade @media específica, vou usar bastante! kkkkkkk
+    }
+}
 }

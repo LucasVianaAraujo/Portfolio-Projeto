@@ -1,8 +1,7 @@
 function Camada5() {
     return (
         <div className="fundo_todo3">
-            <h1>DÚVIDAS</h1>
-            <h1>FREQUENTES</h1>
+            <h1>DÚVIDAS FREQUENTES</h1>
 
             <div className="duvidas">
                 <details>

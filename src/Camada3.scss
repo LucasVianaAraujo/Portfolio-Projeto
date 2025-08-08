@@ -6,65 +6,51 @@
 
 .fundo_todo1 {
     display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: white;
+    width: 100%;
+    background-color: #ffffff;
     flex-direction: column;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
 
     .texto_topo h1 {
-        font-size: 80px;
-        justify-self: center;
-        padding-bottom: 2%;
         font-family: "Special Gothic Condensed One", sans-serif;
         font-weight: 400;
         font-style: normal;
+        font-size: 8vh;
+        color: rgb(0, 0, 0);
     }
 
-    .justificador_quadrado {
+    .swiper-container {
+        width: 100vh;
+        height: 20vh;
+    }
+
+    .swiper {
+        padding-bottom: 8vh;
+    }
+    
+    .swiper-slide {
         display: flex;
         justify-content: center;
-        gap: 1%;
-        flex-direction: row;
-    }
-
-    .quadrado {
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        padding: 1%;
-        text-align: justify;
-        justify-self: center;
-        justify-content: center;
-        border: rgba(0, 255, 234, 0.466) solid 1px;
-        height: 30vh;
-        width: 18%;
-        border-radius: 10px;
-        margin: 1%;
-
-
-        img {
-            width: 30%;
-            height: 10vh;
-        }
-
-        h1 {
-            font-family: "Special Gothic Condensed One", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 5vh;
-        }
-
-        h3 {
-            font-family: "Special Gothic Condensed One", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-        }
-
+        width: 100%;
+        cursor: grabbing;
+    }
+    
+    .slide-item {
+        width: 15vh;
+        height: 15vh;
     }
 
-    .quadrado:hover {
-        background-color: rgba(128, 128, 128, 0.233);
-        transition: all 0.5s;
-        transform: scale(1.1);
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none !important;
+        color: black;
+    }
+
+    .swiper-pagination-bullet {
+        background: black;
     }
 }

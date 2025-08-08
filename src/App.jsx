@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import Camada1 from './Camada1.jsx'
 import Camada2 from './Camada2.jsx'
 import Camada3 from './Camada3.jsx'
